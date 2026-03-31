@@ -3,16 +3,17 @@ Spam Email Detector, A machine learning web app that uses Multinomial Naive Baye
 
 
 
-This is how the folder structure of this repository should be setup.
-
+## How the file structure should be
+```
 spam-detector/
 ├── dataset/
-│   └── dataset.csv's
+│   └── datasetemails.csv
 ├── model/
-│   └── (saved model files go here)
+│   └── (saved model files)
 ├── notebooks/
-│   └── train_model.ipynb   ← Noel's workspace
-├── predict.py              ← Kahner's predict.py file
-├── app.py                  ← Quojosalyn's Streamlit app
+│   └── train_model.ipynb - Noel
+├── predict.py - Kahner
+├── app.py - Quojosalyn's Streamlit app
 ├── requirements.txt
 └── README.md
+```
